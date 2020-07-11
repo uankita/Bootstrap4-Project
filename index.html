@@ -42,7 +42,9 @@
                 </div>
                 <div class="col-12 col-sm align-self-center">
                     <img src="img/logo.png" class="img-fluid">
-                
+                </div>
+                <div class="col-12 col-sm-3 align-self-center">
+                    <a href="#last-row" class="btn btn-warning nav-link btn-block">Reserve Table</a>
                 </div>
             </div>
         </div>
@@ -69,12 +71,20 @@
         </div>
 
         <div class="row row-content align-items-center">
-            <div class="col-12 col-sm-4 order-sm-last col-md-3">
+            <div class="col-12 col-sm-4 order-sm-first col-md-3">
                 <h3>This Month's Promotions</h3>
             </div>
-            <div class="col col-sm order-sm-first col-md">
-                <h2>Weekend Grand Buffet</h2>
-                <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+            <div class="col col-sm order-sm-last col-md">
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center"
+                            src="img/uthappizza.png" alt="Uthappizza">
+                    <div class="media-body">
+                        <h2 class="mt-0">Weekend Grand Buffet<span class="badge badge-danger">NEW</span></h2>
+                        <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, 
+                            six enticing appetizers, six main entrees and five choicest desserts.
+                             Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -99,7 +109,49 @@
             </div>
         </div>
     </div>
-
+    <div class="col-12 col-sm-5" id="last-row">
+        <div class="card">
+            <h3 class="card-header bg-primary text-white">Reserve a Table</h3>
+            <div class="card-body">
+                <dl class="row">
+                    <dt class="col-3">Number of Guests</dt>
+                    <div class="form-check">
+                        <form id="reserveTableModelButton">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1"><b>1</b></label></div>&nbsp;
+                        <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1"><b>2</b></label></div>&nbsp;
+                        <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1"><b>3</b></label></div>&nbsp;
+                        <div class="form-check">
+                         <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1"><b>4</b></label></div>&nbsp;
+                        <div class="form-check">
+                         <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1"><b>5</b></label></div>&nbsp;
+                        <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1"><b>6</b></label></div>
+                </dl>
+                <dl class="row">
+                <dt class="col-2">Date and Time</dt>
+                
+                 <div class="row">
+                 <div class="col">
+                     <input type="text" class="form-control" placeholder="Date">
+                     
+                       </div>
+                  <div class="col">
+                  <input type="text" class="form-control" placeholder="Time">
+                          </div>
+                       </div>
+                       <button type="submit" class="btn btn-primary">Reserve</button>
+                    </form> </dl>
+                    </div>
+            </div>
+            </div>
     <footer class="footer">
         <div class="container">
             <div class="row">             
